@@ -4,7 +4,8 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 
 from google.cloud import bigquery
-from google.cloud.bigquery import dbapi, QueryJobConfig
+from google.cloud.bigquery import dbapi
+from google.cloud.bigquery.job import QueryJobConfig
 from google.cloud.bigquery.schema import SchemaField
 from google.cloud.bigquery.table import EncryptionConfiguration
 from google.cloud.bigquery.dataset import DatasetReference
